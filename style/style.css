@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#wrap #background {
+  width: 100%;
+  height: 100%;
+}
+
+#wrap #canvas {
+  position: absolute;
+  top: 100;
+  left: 100;
+  z-index: 20;
+  width: 300px;
+  height: 300px;
+}
+
+#wrap #camInput, #wrap #canvasOutput {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#wrap #camInput {
+  z-index: 1;
+}
+
+#wrap #canvasOutput {
+  z-index: 10;
+}
+/*# sourceMappingURL=style.css.map */
